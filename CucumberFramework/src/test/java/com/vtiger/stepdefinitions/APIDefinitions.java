@@ -53,6 +53,7 @@ public class APIDefinitions extends BaseTest {
 		File f = new File(templatename);
 		StringBuffer sb = new StringBuffer();
 		Scanner scan = new Scanner(f);
+		System.out.println("dont use eclipse");
 		while(scan.hasNextLine())
 		{
 			sb.append(scan.nextLine());
